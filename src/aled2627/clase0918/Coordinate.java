@@ -23,7 +23,7 @@ public class Coordinate {
 	}
 	
 	@Override
-	public int hashCode() {
+	public int hashCode() { //convierte los datos de un objeto en una huella digital numérica para Java
 		return Objects.hash(x, y);
 	}
 
