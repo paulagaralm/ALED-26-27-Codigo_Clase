@@ -28,18 +28,18 @@ public class Complejidad {
 		return numDup; // O(1)
 	}
 	
-	public static int numDuplicatesPro(int[] intArray) { // O(n²)
-		int numDup = 0; // O(1)
+	public static int numNoDuplicatesPro(int[] intArray) { // O(n²)
+		int numNoDup = 0; // O(1)
 		List<Integer> lista = new ArrayList<Integer>();
 		
 		for(int i = 0; i < intArray.length; i++) { // O(2n²)
 			// Comparo cada número con todos los demás
 			if (!lista.contains(intArray[i])) {
-				numDup++;
+				numNoDup++;
 				lista.add(intArray[i]);
 			}
 		}
-		return numDup; // O(1)
+		return numNoDup; // O(1)
 	}
 	
 	public static int numDuplicatesAlberto(int[] intArray) { // O(n² + 2) -> O(n²)
