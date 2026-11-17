@@ -43,10 +43,4 @@ public class BinarySearch {
 		System.out.println("Está en la posición: " + posMogollonaco);
 	}
 
-	
-	
-	
-	
-	
-	
 }
