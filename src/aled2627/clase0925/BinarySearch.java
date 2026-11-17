@@ -7,7 +7,7 @@ public class BinarySearch {
 	}
 	
 	// O(log n)
-	private static int binarySearch(int[] array, int value, int lo, int hi) {
+	private static int binarySearch(int[] array, int value, int lo, int hi) { //intervalo cerrado - abierto
 		while (lo < hi) {
 			// Calculamos el punto medio
 			int m = (int) Math.floor((lo + hi)/2);
